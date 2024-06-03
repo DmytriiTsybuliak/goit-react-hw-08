@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.validation {
+  color: red;
+  font-size: 14px;
+}

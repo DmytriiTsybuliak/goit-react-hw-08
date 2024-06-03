@@ -1,0 +1,26 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+  width: 280px;
+}
+
+.info {
+  display: flex;
+  margin-left: 5px;
+}
+
+.name,
+.number {
+  margin-left: 5px;
+}
+
+.submitButton {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
