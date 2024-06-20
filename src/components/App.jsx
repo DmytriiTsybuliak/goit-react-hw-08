@@ -1,11 +1,9 @@
 import './App.css';
 
-import { fetchContacts } from '../redux/contacts/operations';
 import { useDispatch, useSelector } from 'react-redux';
 import { Suspense, lazy, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Layout from './Layout/Layout';
-import { selectError, selectLoading } from '../redux/contacts/selector';
 import { refreshUser } from '../redux/auth/operations';
 import { selectIsRefreshing } from '../redux/auth/selectors';
 import RestrictedRoute from './RestrictedRoute';
