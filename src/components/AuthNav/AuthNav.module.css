@@ -1,0 +1,16 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  margin: 15px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: rgb(0, 255, 42);
+}
+
+.isActive {
+  color: rgb(0, 255, 42);
+}
